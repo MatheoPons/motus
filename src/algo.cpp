@@ -18,18 +18,11 @@ int algo(char const * const * const dictionary, size_t const dictionary_size, ch
     if (!result)
         return (84);
     std::cout << "START:" << std::endl;
+    /// WRITE YOUR DEFINITIONS
+
+
     while (std::string{result}.find('$') != std::string::npos || std::string{result}.find('_') != std::string::npos) {
-
-
-
-
-
-        /// WRITE
-        /// YOUR
-        /// CODE
-
-
-
+        /// WRITE YOUR ALGO
 
 
     }
