@@ -1,8 +1,8 @@
-arbres
-salive
-tortue
-chiens
-souris
-larves
-loupes
-louves
+ARBRES
+SALIVE
+TORTUE
+CHIENS
+SOURIS
+LARVES
+LOUPES
+LOUVES

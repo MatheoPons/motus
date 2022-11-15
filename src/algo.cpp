@@ -17,7 +17,8 @@ int algo(char const * const * const dictionary, size_t const dictionary_size, ch
     char *result = emptyStr(word_length);
     if (!result)
         return (84);
-    while (std::string{result}.find('O') != std::string::npos || std::string{result}.find('_') != std::string::npos) {
+    std::cout << "START:" << std::endl;
+    while (std::string{result}.find('$') != std::string::npos || std::string{result}.find('_') != std::string::npos) {
 
 
 
@@ -26,6 +27,7 @@ int algo(char const * const * const dictionary, size_t const dictionary_size, ch
         /// WRITE
         /// YOUR
         /// CODE
+
 
 
 

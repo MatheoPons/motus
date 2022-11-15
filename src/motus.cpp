@@ -31,10 +31,11 @@ char *emptyStr(std::size_t const &word_length)
     return str;
 }
 
-/// @brief let the player try a word
-/// @param guess 
-/// @param word 
-/// @param result 
+/// @brief let the player try a word '%':good place '$':good letter '_':wrong letter
+/// @param guess
+/// @param word
+/// @param result
+/// @return a string containing 3 char : '%':good place '$':good letter '_':wrong letter
 void guess(char const * const guess, char const * const word, char * result)
 {
     static std::size_t guessNumber = 1;
@@ -45,9 +46,9 @@ void guess(char const * const guess, char const * const word, char * result)
 
     while (idx < sguess.size()) {
         if (sguess[idx] == sword[idx])
-            sresult.push_back('O');
+            sresult.push_back('$');
         else if (sword.find_first_of(sguess[idx]) != std::string::npos)
-            sresult.push_back('X');
+            sresult.push_back('%');
         else
             sresult.push_back('_');
         idx = idx + 1;
