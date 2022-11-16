@@ -54,6 +54,7 @@ void guess(char const * const guess, char const * const word, char * result)
         idx = idx + 1;
     }
     std::cout << "[" << guessNumber << "]: " << guess << " ? " << word << " => " << sresult << std::endl;
+    guessNumber = guessNumber + 1;
     strcpy(result, sresult.c_str());
 }
 
