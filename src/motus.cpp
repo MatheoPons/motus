@@ -31,7 +31,7 @@ char *emptyStr(std::size_t const &word_length)
     return str;
 }
 
-/// @brief let the player try a word '%':good place '$':good letter '_':wrong letter
+/// @brief let the player try a word '$':good place '%':good letter '_':wrong letter
 /// @param guess
 /// @param word
 /// @param result
