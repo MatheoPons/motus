@@ -35,7 +35,7 @@ char *emptyStr(std::size_t const &word_length)
 /// @param guess
 /// @param word
 /// @param result
-/// @return a string containing 3 char : '%':good place '$':good letter '_':wrong letter
+/// @return a string containing 3 char : '$':good place '%':good letter '_':wrong letter
 void guess(char const * const guess, char const * const word, char * result)
 {
     static std::size_t guessNumber = 1;
@@ -54,6 +54,7 @@ void guess(char const * const guess, char const * const word, char * result)
         idx = idx + 1;
     }
     std::cout << "[" << guessNumber << "]: " << guess << " ? " << word << " => " << sresult << std::endl;
+    guessNumber = guessNumber + 1;
     strcpy(result, sresult.c_str());
 }
 
