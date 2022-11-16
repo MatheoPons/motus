@@ -21,7 +21,7 @@ int algo(char const * const * const dictionary, size_t const dictionary_size, ch
     /// WRITE YOUR DEFINITIONS
 
 
-    while (std::string{result}.find('$') != std::string::npos || std::string{result}.find('_') != std::string::npos) {
+    while (std::string{result}.find('%') != std::string::npos || std::string{result}.find('_') != std::string::npos) {
         /// WRITE YOUR ALGO
 
 
