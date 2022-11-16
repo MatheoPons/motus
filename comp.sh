@@ -1,1 +1,1 @@
-g++ -o motus.out src/main.cpp src/motus.cpp src/algo.cpp -I./include/ -std=c++2a
+g++ -o motus.out src/main.cpp src/motus.cpp src/algo.cpp src/list.cpp -I./include/ -std=c++2a
